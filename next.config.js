@@ -2,7 +2,8 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    servefrComponentsExternalPackages: ["bcrypt"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
