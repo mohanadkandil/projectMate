@@ -21,9 +21,19 @@ export const fetcher = async ({ url, method, body, json = true }) => {
     the data to the backend through /api route that will make the post request
 */
 export const register = async (user) => {
-  return fetcher({ url: "/api/register", method: "POST", body: user });
+  return fetcher({
+    url: "/api/register",
+    method: "POST",
+    body: user,
+    json: false,
+  });
 };
 
 export const signin = async (user) => {
-  return fetcher({ url: "/api/login", method: "POST", body: user });
+  return fetcher({
+    url: "/api/signin",
+    method: "POST",
+    body: user,
+    json: false,
+  });
 };

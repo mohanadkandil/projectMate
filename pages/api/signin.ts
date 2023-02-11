@@ -27,10 +27,10 @@ export default async function signin(
         })
       );
       res.send(201);
-      res.end();
+      res.json({});
     } else {
       res.send(402);
-      res.end();
+      res.json({});
     }
   }
 }

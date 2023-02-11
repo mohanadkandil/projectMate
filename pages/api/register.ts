@@ -30,6 +30,6 @@ export default async function register(
     );
 
     res.status(201);
-    res.end();
+    res.json({});
   }
 }
