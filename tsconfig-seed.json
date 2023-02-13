@@ -21,10 +21,10 @@
     ],
     "baseUrl": "./",
     "paths": {
-      "@/lib": ["lib/*"],
-      "@/components": ["components/*"],
-      "@/pages": ["pages/*"],
-      "@/assets": ["assets/*"]
+      "@/lib/*": ["lib/*"],
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/assets/*": ["assets/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
