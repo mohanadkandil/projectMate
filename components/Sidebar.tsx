@@ -20,7 +20,7 @@ const Sidebar = () => {
   return (
     <Card className="h-full w-40 flex items-center justify-between flex-wrap">
       {links.map((link) => (
-        <SidebarLink link={link} />
+        <SidebarLink link={link} key={link.icon} />
       ))}
     </Card>
   );
